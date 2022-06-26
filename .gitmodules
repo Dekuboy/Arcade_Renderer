@@ -1,0 +1,3 @@
+[submodule "CoBeBeEngine"]
+	path = CoBeBeEngine
+	url = https://github.com/Dekuboy/CoBeBeEngine.git
