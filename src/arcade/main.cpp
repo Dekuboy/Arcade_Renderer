@@ -25,7 +25,7 @@ int main()
 
 		std::shared_ptr<cobebe::Renderer> renderer = entity->addComponent<CabRender>();
 		renderer->setGltfMesh("gltf\\cabinet.gltf");
-		renderer->setShader("deferred_shaders\\renderGCab.shad");
+		renderer->setShader("emscripten_shaders\\renderGCab.shad");
 
 		entity = App->addEntity();
 		entity->getTransform()->m_position = glm::vec3(0.0f, -1.0f, -5.0f);

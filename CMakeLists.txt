@@ -10,8 +10,8 @@ include_directories(
 	src
 	include
 	CoBeBeEngine/src
-	CoBeBeEngine/include
-	lib
+	CoBeBeEngine/include/common
+	CoBeBeEngine/include/msvc
 )
 
 add_executable(arcade_renderer
